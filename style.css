@@ -1,0 +1,43 @@
+
+.sky {
+    background-color: #6BCAD0;
+    width: 600px;
+    height: 250px;
+    border-left: #39ACB4 solid 10px;
+    border-right: #39ACB4 solid 10px;
+    position: absolute;
+    z-index: -1;
+}
+
+.grass {
+    background-color: #CDDD61; /* fadeadd*/
+    width: 600px;
+    height: 100px;
+    border-left: #39ACB4 solid 10px;
+    border-right: #39ACB4 solid 10px;
+    position: absolute;
+    z-index: 0;
+    top: 160px;
+}
+
+h1 {
+font-family: 'Bungee Shade', cursive; /*how do i make the inside of text white*/
+color: black;
+font-size: 60px;
+position: absolute;
+top: -30px;
+left: 60px;
+}
+
+.contact {
+    z-index: 1;
+    color: black;
+    position: absolute;
+    top: 170px;
+    left:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+
+
